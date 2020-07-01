@@ -1,0 +1,28 @@
+{
+  "version": "2.0.2",
+  "compilerOptions": {
+    "lib": ["es5", "es6"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "plugins": [{
+      "name": "typescript-tslint-plugin",
+      "alwaysShowRuleFailuresAsWarnings": false,
+      "ignoreDefinitionFiles": true,
+      "configFile": "../.tslint.json",
+      "suppressWhileTypeErrorsPresent": false
+    }]
+  },
+  "include": [
+    "./src/**/*"
+  ],  
+  "exclude": [
+      "node_modules"
+  ],
+  "extends": "eslint-config-airbnb-typescript"
+}
