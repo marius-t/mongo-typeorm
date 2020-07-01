@@ -17,7 +17,7 @@
  - To access the API go to: `http://localhost:9000` or `http://localhost:[custom-port-from-.env-file]`
 
 
-## Ussage and known issues
+## Usage and known issues
 
  - The app has no validation at this point - todo
  - DOB is a `string` and is not validating against any correct Date format
